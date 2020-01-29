@@ -1,0 +1,12 @@
+#colorjumbo
+{
+    background: linear-gradient(to right, deeppink, darkviolet);
+}
+#option1
+{
+    background: linear-gradient(to bottom, grey, darkgrey);
+}
+#option2
+{
+    background: linear-gradient(to bottom, darkgrey, grey);
+}
