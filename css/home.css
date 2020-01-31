@@ -5,8 +5,10 @@
 #option1
 {
     background: linear-gradient(to bottom, grey, darkgrey);
+    border-radius: 20px;
 }
 #option2
 {
     background: linear-gradient(to bottom, darkgrey, grey);
+    border-radius: 20px;
 }
