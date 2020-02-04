@@ -3,49 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>NextCargo Home</title>
+    <!-- Mobile Support -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/home.css">
 </head>
 <body>
-<div>
-    <div class="jumbotron text-center" id="colorjumbo">
-        <h1>Welcome to the responsive</h1>
-        <p>responsive test blablabla</p>
+    <!-- Navigation -->
+    <!-- A grey horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="../img/logonext.png" alt="logo NextCargo" style="width: 40px">
+        </a>
+        <!-- toggler -->
+        <a class="navbar-brand" href="#">NextCargo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#">About Us</a>
+                 </li>
+            </ul>
+            <form class="form-inline" action="index.html">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <h1>NextCargo in responsive</h1>
+        <p>Test responsive </p>
     </div>
+
     <div class="container">
         <div class="row">
-            <a href="urbanhome.html">
-                <div class="col-md-4" id="option1">
-                    <h3 class="text-primary">Servicio Nacional</h3>
-                    <p class="text-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                        Ipsum.</p>
-                    <p class="text-succes">paqueteria nacional blabla</p>
-                </div>
-            </a>
-            <div class="col-md-4"></div>
-            <a href="nationhome.html">
-                <div class="col-md-4" id="option2">
-                    <h3 class="text-primary">Servicio Urbano</h3>
-                    <p class="text-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                        Ipsum.</p>
-                    <p class="text-succes">enviar paquete a su misma ciudad</p>
-                </div>
-            </a>
+            <div class="col-sm-4">
+                <h3>Column 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Column 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Column 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
         </div>
     </div>
-    </div>
+    <!-- Options Container -->
 </body>
 </html>
