@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec988f04-fbbe-47cd-867d-779f2f5dd7ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/NextCargo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NextCargo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/noreload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/noreload.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/send.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/send.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +51,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,7 +70,7 @@
       <workItem from="1580751548843" duration="10191000" />
       <workItem from="1580829657985" duration="14669000" />
       <workItem from="1580944132822" duration="367000" />
-      <workItem from="1581025875331" duration="14491000" />
+      <workItem from="1581025875331" duration="20645000" />
     </task>
     <servers />
   </component>
@@ -81,6 +86,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580782247791" />
+    <state x="689" y="172" key="SettingsEditor" timestamp="1581063371800">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="689" y="172" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1581063371800" />
+    <state x="1126" y="246" width="555" height="612" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1581063291427">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1126" y="246" width="555" height="612" key="com.intellij.javaee.MapExternalResourceDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581063291427" />
     <state x="461" y="233" width="726" height="303" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580784831845">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
