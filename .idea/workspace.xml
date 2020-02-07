@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec988f04-fbbe-47cd-867d-779f2f5dd7ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/NextCargo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NextCargo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/noreload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/noreload.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +65,7 @@
       <workItem from="1580829657985" duration="14669000" />
       <workItem from="1580944132822" duration="367000" />
       <workItem from="1581025875331" duration="20645000" />
+      <workItem from="1581092943564" duration="498000" />
     </task>
     <servers />
   </component>
