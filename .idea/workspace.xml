@@ -63,6 +63,8 @@
       <workItem from="1580501365357" duration="5599000" />
       <workItem from="1580751548843" duration="10191000" />
       <workItem from="1580829657985" duration="14669000" />
+      <workItem from="1580944132822" duration="367000" />
+      <workItem from="1581025875331" duration="7545000" />
     </task>
     <servers />
   </component>
@@ -82,5 +84,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="461" y="233" width="726" height="303" key="org.intellij.images.editor.actions.BackgroundImageDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580784831845" />
+    <state x="1119" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1581038212818">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1119" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1581038212818" />
   </component>
 </project>
