@@ -13,6 +13,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- moment -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <!-- temposdominus -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
@@ -83,39 +88,82 @@
                 </a>
             </div>
         </div>
-        <div class="col-md-4">
-                <h2>Send Your Package</h2>
-                <p>blablablablablablabla 576PX</p>
-                <form class="form-inline" action="#">
-                    <!-- name of object -->
-                    <label for="objectname">Object Name :</label>
-                    <input type="objectname" class="form-control" id="objectname" placeholder="Furnitures, Clothing, Lumps...">
-                    <!-- weight -->
-                    <label for="objectkg">Kg :</label>
-                    <input type="objectkg" class="form-control" id="objectkg" placeholder="Unit weight of the object in Kg">
-                    <!-- dimensions -->
-                    <label for="objectdimensions">Dimensions :</label>
-                    <input type="objectdimensions" class="form-control" id="objectdimensions" placeholder="Furnitures, Clothing, Lumps...">
-                </form>
-        </div>
-        <div class="offset-4 col-md-4">
-            <h2>Send Your Package</h2>
-            <p>blablablablablablabla 576PX</p>
-            <form class="form-inline" action="#">
-                <!-- name of object -->
-                <label for="objectname">Object Name :</label>
-                <input type="objectname" class="form-control" id="objectname" placeholder="Furnitures, Clothing, Lumps...">
-                <!-- weight -->
-                <label for="objectkg">Kg :</label>
-                <input type="objectkg" class="form-control" id="objectkg" placeholder="Unit weight of the object in Kg">
-                <!-- dimensions -->
-                <label for="objectdimensions">Dimensions :</label>
-                <input type="objectdimensions" class="form-control" id="objectdimensions" placeholder="Furnitures, Clothing, Lumps...">
-            </form>
-        </div>
-
     </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="#">
+                    <div class="form-group form-inline">
+                    <!-- name of object -->
+                        <label for="objectname" class="col-md-3">Object Name :</label>
+                        <input type="objectname" class="form-control mb-2 mr-sm2" id="objectname" placeholder="e.g. Furnitures, Clothing, Lumps...">
+                    </div>
+                    <!-- weight -->
+                    <div class="form-group form-inline">
+                        <label for="objectkg" class="col-md-3">Weight (kg) :</label>
+                        <input type="objectkg" class="form-control mb-2 mr-sm-2" id="objectkg" placeholder="Unit weight of the object in Kg">
+                    </div>
+                    <div class="form-group form-inline">
+                    <!-- dimensions -->
+                        <label for="objectdimensions" class="col-md-3">Dimensions (cm) :</label>
+                        <input type="objectdimensions" class="form-control col-md-2" placeholder="Deep">
+                        <p>*</p>
+                        <input type="objectdimensions" class="form-control col-md-2" placeholder="Height">
+                        <p>*</p>
+                        <input type="objectdimensions" class="form-control col-md-2" id="objectdimensions" placeholder="Width">
+                    </div>
 
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form action="#">
+                    <div class="form-group form-inline">
+                        <!-- from -->
+                        <label for="fromdirection" class="col-md-3">Direction From :</label>
+                        <input type="fromdirection" class="form-control mb-2 mr-sm2" id="fromdirection" placeholder="e.g. Carrera 99 #99-99">
+                    </div>
+                    <!-- to -->
+                    <div class="form-group form-inline">
+                        <label for="todirection" class="col-md-3">Direction To :</label>
+                        <input type="todirection" class="form-control mb-2 mr-sm-2" id="todirection" placeholder="e.g. Calle 99 #99-99">
+                    </div>
+                    <div class="form-group form-inline">
+                        <!-- dimensions -->
+                        <label for="infosupp" class="col-md-3">Important Details :</label>
+                        <input type="infosupp" class="form-control mb-2 mr-sm-2" id="infosupp" placeholder="e.g. Need to call 3-2h before">
+                    </div>
+                    <!--     Calendar -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="input-group date" id="datetimepicker6" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker6"/>
+                                        <div class="input-group-append" data-target="#datetimepicker6" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                $(function ()
+                                {
+                                    $('#datetimepicker6').datetimepicker(
+                                    {
+                                        defaultDate: new Date(),
+                                        disabledDates:
+                                        [
+                                            moment("02/12/2020"),
+                                            new Date()
+                                        ]
+                                    });
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <a href="nation.html" class="col-md-12 btn btn-primary">Go !</a>
+        </div>
 </div>
 <!-- /.container -->
 <hr class="bg-light">
