@@ -1,3 +1,13 @@
+.back
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
 .register{
     background: -webkit-linear-gradient(left, black, darkviolet);
     margin-top: 3%;
