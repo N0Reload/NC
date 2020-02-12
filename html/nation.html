@@ -111,7 +111,12 @@
                         <p>*</p>
                         <input type="objectdimensions" class="form-control col-md-2" id="objectdimensions" placeholder="Width">
                     </div>
-
+                    <div class="form-check">
+                        <label class="form-check-label" for="helper">
+                            <input type="checkbox" class="form-check-input" id="helper" name="helper" value="something" checked>
+                            Do you need two travelers to carry the item (s) ?
+                        </label>
+                    </div>
                 </form>
             </div>
             <div class="col-md-6">
@@ -120,11 +125,37 @@
                         <!-- from -->
                         <label for="fromdirection" class="col-md-3">Direction From :</label>
                         <input type="fromdirection" class="form-control mb-2 mr-sm2" id="fromdirection" placeholder="e.g. Carrera 99 #99-99">
+                        <!-- CheckBox -->
+                        <div class="form-check-inline">
+                            <label class="form-check-label" for="check1">
+                                <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something" checked>
+                                Removal at the foot of the vehicle ?
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label" for="check2">
+                                <input type="checkbox" class="form-check-input" id="check2" name="vehicle2" value="something">
+                                Home / warehouse pickup
+                            </label>
+                        </div>
                     </div>
                     <!-- to -->
                     <div class="form-group form-inline">
                         <label for="todirection" class="col-md-3">Direction To :</label>
                         <input type="todirection" class="form-control mb-2 mr-sm-2" id="todirection" placeholder="e.g. Calle 99 #99-99">
+                        <!-- CheckBox -->
+                        <div class="form-check-inline">
+                            <label class="form-check-label" for="check3">
+                                <input type="checkbox" class="form-check-input" id="check3" name="vehicle1" value="something" checked>
+                                Delivery at the foot of the vehicle ?
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label" for="check4">
+                                <input type="checkbox" class="form-check-input" id="check4" name="vehicle2" value="something">
+                                Home delivery
+                            </label>
+                        </div>
                     </div>
                     <div class="form-group form-inline">
                         <!-- dimensions -->
@@ -136,6 +167,7 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
+                                    <p>To deliver before :</p>
                                     <div class="input-group date" id="datetimepicker6" data-target-input="nearest">
                                         <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker6"/>
                                         <div class="input-group-append" data-target="#datetimepicker6" data-toggle="datetimepicker">
@@ -149,12 +181,18 @@
                                 {
                                     $('#datetimepicker6').datetimepicker(
                                     {
+                                        icons: {
+                                            time: "fa fa-clock-o",
+                                            date: "fa fa-calendar",
+                                            up: "fa fa-arrow-up",
+                                            down: "fa fa-arrow-down"
+                                        },
                                         defaultDate: new Date(),
-                                        disabledDates:
-                                        [
-                                            moment("02/12/2020"),
-                                            new Date()
-                                        ]
+                                        //disabledDates:
+                                        ///[
+                                            //moment("02/12/2020"),
+                                          //  new Date()
+                                        //]
                                     });
                                 });
                             </script>
@@ -162,7 +200,7 @@
                     </div>
                 </form>
             </div>
-            <a href="nation.html" class="col-md-12 btn btn-primary">Go !</a>
+            <a href="nation.html" class="col-md-12 btn btn-primary">Price Estimate</a>
         </div>
 </div>
 <!-- /.container -->
