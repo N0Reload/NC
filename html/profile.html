@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile NextCargo</title>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="homepage.html">
+        <img src="../img/logonext.png" alt="logo NextCargo" style="width: 40px">
+    </a>
+    <!-- toggler -->
+    <a class="navbar-brand" href="#">NextCargo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">My Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">Team</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 ">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">Dashboard</a>
+                <a href="#" class="list-group-item list-group-item-action">Packages</a>
+                <a href="#" class="list-group-item list-group-item-action">Blabla1</a>
+                <a href="#" class="list-group-item list-group-item-action">Blabla2</a>
+                <a href="#" class="list-group-item list-group-item-action">Blabla3</a>
+                <a href="#" class="list-group-item list-group-item-action">Blabla4</a>
+                <a href="#" class="list-group-item list-group-item-action">Blabla5</a>
+                <a href="#" class="list-group-item list-group-item-action">Blabla6</a>
+                <a href="#" class="list-group-item list-group-item-action">Blabla7</a>
+                <a href="#" class="list-group-item list-group-item-action">Messages</a>
+                <a href="#" class="list-group-item list-group-item-action">Appearance</a>
+                <a href="#" class="list-group-item list-group-item-action">Reports</a>
+                <a href="#" class="list-group-item list-group-item-action">Settings</a>
+
+
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>Your Profile</h4>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="username" class="col-4 col-form-label">User Name*</label>
+                                    <div class="col-8">
+                                        <input id="username" name="username" placeholder="Username" class="form-control here" required="required" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="name" class="col-4 col-form-label">First Name</label>
+                                    <div class="col-8">
+                                        <input id="name" name="name" placeholder="First Name" class="form-control here" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="lastname" class="col-4 col-form-label">Last Name</label>
+                                    <div class="col-8">
+                                        <input id="lastname" name="lastname" placeholder="Last Name" class="form-control here" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="text" class="col-4 col-form-label">Nick Name*</label>
+                                    <div class="col-8">
+                                        <input id="text" name="text" placeholder="Nick Name" class="form-control here" required="required" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="select" class="col-4 col-form-label">Display Name public as</label>
+                                    <div class="col-8">
+                                        <select id="select" name="select" class="custom-select">
+                                            <option value="admin">Admin</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="email" class="col-4 col-form-label">Email*</label>
+                                    <div class="col-8">
+                                        <input id="email" name="email" placeholder="Email" class="form-control here" required="required" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="website" class="col-4 col-form-label">Website</label>
+                                    <div class="col-8">
+                                        <input id="website" name="website" placeholder="website" class="form-control here" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="publicinfo" class="col-4 col-form-label">Public Info</label>
+                                    <div class="col-8">
+                                        <textarea id="publicinfo" name="publicinfo" cols="40" rows="4" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="newpass" class="col-4 col-form-label">New Password</label>
+                                    <div class="col-8">
+                                        <input id="newpass" name="newpass" placeholder="New Password" class="form-control here" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="offset-4 col-8">
+                                        <button name="submit" type="submit" class="btn btn-primary">Update My Profile</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="my-4">
+<!-- Connect -->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="../img/logonext.png" style="width: 60px" alt="nextcargo logo">
+                <hr class="light">
+                <p>999-999-9999</p>
+                <p>email@nextcargo.com</p>
+                <p>Calle X # 99-99</p>
+                <p>Bogota, DC, Colombia</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Our Hours</h5>
+                <hr class="light">
+                <p>Monday : 9am - 7pm</p>
+                <p>Tuesday : 9am - 7pm</p>
+                <p>Friday : 9am - 7pm</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Service Area</h5>
+                <hr class="light">
+                <p>Bogota, DC, Colombia</p>
+                <p>Bogota, DC, Colombia</p>
+                <p>Bogota, DC, Colombia</p>
+            </div>
+            <div class="col-12">
+                <hr class="light-100">
+                <h5>&copy;nextcargo.co</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- moment -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<!-- temposdominus -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<link rel="stylesheet" href="../css/custom_bootstrap.css">
+</body>
+</html>

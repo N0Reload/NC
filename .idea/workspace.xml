@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec988f04-fbbe-47cd-867d-779f2f5dd7ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom_bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom_bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/nation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/nation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/send.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/send.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/urban.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/urban.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,7 +52,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,7 +85,11 @@
       <workItem from="1581350684182" duration="6131000" />
       <workItem from="1581444899148" duration="13258000" />
       <workItem from="1581518915850" duration="16542000" />
-      <workItem from="1581541954501" duration="3211000" />
+      <workItem from="1581541954501" duration="3433000" />
+      <workItem from="1581549158062" duration="2834000" />
+      <workItem from="1581632149130" duration="2278000" />
+      <workItem from="1581695476761" duration="440000" />
+      <workItem from="1581712283368" duration="1934000" />
     </task>
     <servers />
   </component>
@@ -108,10 +119,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="254" height="198" key="RunAnythingAction_Filter_Popup/67.27.1853.1053@67.27.1853.1053" timestamp="1581347804311" />
-    <state x="689" y="172" key="SettingsEditor" timestamp="1581347793989">
+    <state x="689" y="172" key="SettingsEditor" timestamp="1581632035850">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="689" y="172" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1581347793989" />
+    <state x="689" y="172" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1581632035850" />
     <state x="1126" y="246" width="555" height="612" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1581063291427">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
