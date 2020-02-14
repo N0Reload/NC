@@ -49,6 +49,11 @@ html, body
   background: linear-gradient(to right, deeppink, darkviolet);
   border: darkviolet;
 }
+.nc
+{
+  background: linear-gradient(to right, deeppink, darkviolet);
+  border: darkviolet;
+}
 .jumbotron
 {
   padding: 1rem;

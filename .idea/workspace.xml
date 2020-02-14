@@ -5,11 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom_bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom_bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/nation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/nation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/send.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/send.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/urban.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/urban.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,7 @@
       <workItem from="1581549158062" duration="2834000" />
       <workItem from="1581632149130" duration="2278000" />
       <workItem from="1581695476761" duration="440000" />
-      <workItem from="1581712283368" duration="1934000" />
+      <workItem from="1581712283368" duration="4247000" />
     </task>
     <servers />
   </component>
